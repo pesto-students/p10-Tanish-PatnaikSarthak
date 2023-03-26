@@ -1,0 +1,41 @@
+#parent-div {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+#main-div {
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+#main-div > div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+#text_div {
+  left: 150px;
+  top: 50px;
+}
+#text_div > h1 {
+  text-align: center;
+}
+#red_div {
+  background-color: red;
+  left: 25%;
+}
+#yellow_div {
+  background-color: yellow;
+  left: 50%;
+}
+#blue_div {
+  background-color: blue;
+  left: 25%;
+  top: 50%;
+}
+#green_div {
+  background-color: green;
+  top: 50%;
+  left: 50%;
+}
