@@ -26,4 +26,6 @@ var maxDepth = function(root,index) {
 };
      
 const arr1 = [2,1,3];
-console.log(maxDepth(arr1,0)); 
+console.log(maxDepth(arr1,0));
+//Time complexity: O(n)
+//Space complexity: O(n)
