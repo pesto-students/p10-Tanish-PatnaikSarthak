@@ -1,0 +1,67 @@
+#parent-div {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+#main-div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+#main-div > div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+#text_div {
+  left: 25%;
+  top: 25%;
+}
+#main-div:hover #red_div{
+  transform: rotate(90deg);
+  transform-origin: left top;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+#main-div:hover #yellow_div{
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+#main-div:hover #blue_div{
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+#main-div:hover #green_div{
+  transform: rotate(90deg);
+  transform-origin: right bottom;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+#text_div > h1 {
+  text-align: center;
+}
+#red_div {
+  background-color: red;
+  transition: linear 1s;
+}
+#yellow_div {
+  background-color: yellow;
+  left: 50%;
+  transition: linear 1s;
+}
+#blue_div {
+  background-color: blue;
+  top: 50%;
+  transition: linear 1s;
+}
+#green_div {
+  background-color: green;
+  top: 50%;
+  left: 50%;
+  transition: linear 1s;
+}
