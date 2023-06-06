@@ -22,3 +22,5 @@ function printLevelOrder(root,index) {
 
 const arr1 = [3,9,20,null,null,15,7];
 console.log(printLevelOrder(arr1,0));
+//Time complexity: O(n)
+//Space complexity: O(n)
