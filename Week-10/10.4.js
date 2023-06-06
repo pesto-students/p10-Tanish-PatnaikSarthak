@@ -37,3 +37,5 @@ for(let i=0; i<edges.length; i++){
     AdjMatrix[edges[i][0]].push(edges[i][1]);
 }
 console.log(isPathPresent(src,dst));
+//Time complexity: O(n^2)
+//Space complexity: O(n^2)
